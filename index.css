@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 202, 224);
+    color: rgb(132, 47, 47);
+    height: 90vh;
+}
+
+.heading{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#yes_btn{
+    position: absolute;
+    margin-right: 150px;
+}
+
+#no_btn{
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.btn {
+    background-color: rgb(120, 78, 78);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+
+.gif{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
